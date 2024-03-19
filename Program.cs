@@ -12,18 +12,6 @@ int b = 1;
 Console.WriteLine(Nto1(a,b));
 
 Console.WriteLine("=========================================================");
-string Nto1V2(int a, int b)
-{
-    if (a == 0)
-        return "";
-    return Nto1V2(a-1,b) + $"{b-a} ";
-}
-Console.Write("Введите число: ");
-int a2 = Convert.ToInt32(Console.ReadLine());
-int b2 = a+1;
-Console.WriteLine(Nto1V2(a2,b2));
-
-Console.WriteLine("=========================================================");
 
 int MtoNsumm(int m, int n)
 {
